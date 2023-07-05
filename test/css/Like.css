@@ -1,0 +1,38 @@
+.Like_list-wrap {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Like_list {
+    display: flex;
+    flex-direction: column;
+    margin: 7vh 5vh;
+}
+
+.Like_list-pic {
+    width:210px;
+    height:230px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.Like_list-text {
+    font-family: "Benne", serif;
+    color: white;
+    width: 210px;
+    margin-top: 20px;
+}
+
+.Like_list-title {
+    text-align: center;
+    font-size:xx-large;
+    font-weight: 400;
+}
+
+.Like_list-description {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 150%;
+}

@@ -1,0 +1,47 @@
+.About_wrap {
+    display: flex;    
+    justify-content: center;
+    align-content: center;
+    margin-top: 10vh;
+}
+.About_pic {
+    width: 350px;
+    height: 450px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.About_text {
+    font-family: "Benne", serif;
+    color: white;
+    width: 500px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 200%;
+}
+.About_text-name {
+font-size: 40px;
+font-weight: 400;
+}
+.About_text-name:after {
+    content: "";
+    display: block;
+    width: 200px;
+    border-bottom: 1px solid darkgray;
+    margin: 30px auto;
+  }
+.About_text-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight:400;
+}
+.About_link {
+    text-decoration-line: none;
+    color: gray;}
+
+.About_link:hover{
+    font-weight: 600;
+    color: black;
+}

@@ -1,0 +1,30 @@
+.header {
+    display: block;
+    margin: 5vh auto 5vh auto;
+    text-align: center;
+    
+  }
+  
+  .header_nav {
+    font-size: 20pt;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .header_menu {
+    margin: 30px 50px 0 50px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: rgb(241, 239, 239);
+    font-family: "Benne", serif;
+    font-weight: lighter;
+    font-size: 20pt;
+    font-style: italic;
+  }
+
+  .header_menu:hover{
+    font-weight: 600;
+    color: gray;
+}
+  

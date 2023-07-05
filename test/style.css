@@ -1,0 +1,22 @@
+@import "css/header.css";
+@import "css/About.css";
+@import "css/Like.css";
+@import "css/index.css";
+
+body {
+  background-color: black;
+  background-image: url("pic/curtain.jpg");
+  background-size: cover;
+    margin: 0;
+    padding: 0;
+    animation : fadein 0.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
